@@ -1,3 +1,4 @@
 {
-  "item.shrink_colonies_mod.steel_ingot": "Steel Ingot"
+  "item.shrink_colonies_mod.steel_ingot": "Steel Ingot",
+  "itemGroup.sc_items_tab": "Shrink Items"
 }

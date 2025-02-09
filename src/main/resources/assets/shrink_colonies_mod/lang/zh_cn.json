@@ -1,3 +1,4 @@
 {
-  "item.shrink_colonies_mod.steel_ingot": "钢锭"
+  "item.shrink_colonies_mod.steel_ingot": "钢锭",
+  "itemGroup.sc_items_tab": "Shrink原材料"
 }

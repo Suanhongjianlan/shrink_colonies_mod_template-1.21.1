@@ -1,5 +1,6 @@
 package com.shrink.coloniesmod;
 
+import com.shrink.coloniesmod.item.ModItemGroups;
 import com.shrink.coloniesmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -22,5 +23,6 @@ public class ShrinkColoniesMod implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
+		ModItemGroups.registerModItemGroups();
 	}
 }
