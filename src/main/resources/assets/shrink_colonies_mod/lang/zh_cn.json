@@ -1,4 +1,6 @@
 {
   "item.shrink_colonies_mod.steel_ingot": "钢锭",
+  "block.shrink_colonies_mod.steel_block": "钢块",
+  "itemGroup.sc_blocks_tab": "Shrink方块",
   "itemGroup.sc_items_tab": "Shrink原材料"
 }

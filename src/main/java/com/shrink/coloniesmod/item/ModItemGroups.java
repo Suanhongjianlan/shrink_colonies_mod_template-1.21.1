@@ -11,6 +11,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import com.shrink.coloniesmod.block.ModBlocks;
 
 import static com.shrink.coloniesmod.ShrinkColoniesMod.MOD_ID;
 
@@ -39,6 +40,14 @@ public class ModItemGroups {
                     entries.add(ModItems.STEEL_INGOT);
                 }).build());
 
+
+    public static final ItemGroup SC_BLOCKS_TAB = Registry.register(Registries.ITEM_GROUP,Identifier.of(MOD_ID,"sc_blocks_tab"),
+            ItemGroup.create(null,-1).displayName(Text.translatable("itemGroup.sc_blocks_tab"))
+                    .icon(()->new ItemStack(ModBlocks.STEEL_BLOCK))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.STEEL_BLOCK);
+                    }).build());
+    
     public static void registerModItemGroups(){
         ShrinkColoniesMod.LOGGER.info("Registering Item Groups");
     }
