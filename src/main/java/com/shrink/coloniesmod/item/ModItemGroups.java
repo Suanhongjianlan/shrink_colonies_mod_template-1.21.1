@@ -38,6 +38,15 @@ public class ModItemGroups {
                 .icon(()->new ItemStack(ModItems.STEEL_INGOT))
                 .entries((displayContext, entries) -> {
                     entries.add(ModItems.STEEL_INGOT);
+                    entries.add(ModItems.ALUMINUM_INGOT);
+                    entries.add(ModItems.SILVER_INGOT);
+                    entries.add(ModItems.TIN_INGOT);
+                    entries.add(ModItems.RAW_ALUMINUM);
+                    entries.add(ModItems.RAW_TIN);
+                    entries.add(ModItems.RAW_SILVER);
+                    entries.add(ModItems.TIN_NUGGET);
+                    entries.add(ModItems.ALUMINUM_NUGGET);
+                    entries.add(ModItems.SILVER_NUGGET);
                 }).build());
 
 
@@ -46,8 +55,12 @@ public class ModItemGroups {
                     .icon(()->new ItemStack(ModBlocks.STEEL_BLOCK))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.STEEL_BLOCK);
-
-                        entries.add(ModBlocks.ROCK);
+                        entries.add(ModBlocks.ALUMINUM_BLOCK);
+                        entries.add(ModBlocks.TIN_BLOCK);
+                        entries.add(ModBlocks.SILVER_BLOCK);
+                        entries.add(ModBlocks.SILVER_ORE);
+                        entries.add(ModBlocks.TIN_ORE);
+                        entries.add(ModBlocks.ALUMINUM_ORE);
                     }).build());
     
     public static void registerModItemGroups(){

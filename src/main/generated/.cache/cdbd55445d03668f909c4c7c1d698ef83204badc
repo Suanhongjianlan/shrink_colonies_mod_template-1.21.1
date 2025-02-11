@@ -1,2 +1,8 @@
-// 1.21.1	2025-02-11T22:50:25.8312333	Shrink Colonies Mod/Block Loot Tables
+// 1.21.1	2025-02-12T02:56:34.3831952	Shrink Colonies Mod/Block Loot Tables
+8f7126d157f3cebd24de582d1ce3fe6c46a19752 data\shrink_colonies_mod\loot_table\blocks\tin_ore.json
 0e79ad2c7a1fec500facd2ac60b7cd57108efb9f data\shrink_colonies_mod\loot_table\blocks\steel_block.json
+0c08dfc5f21effde6339de3225c4f7fa5ce6a246 data\shrink_colonies_mod\loot_table\blocks\aluminum_block.json
+8ec798ddcf36b24b1d286b1fd61fe63ccf662c32 data\shrink_colonies_mod\loot_table\blocks\silver_ore.json
+39d0b60991214cc2cbc372b159070d9a27c5afed data\shrink_colonies_mod\loot_table\blocks\tin_block.json
+69d97a25d44c16c3750a8b2d1db9cfdd8ed3364f data\shrink_colonies_mod\loot_table\blocks\silver_block.json
+857df72cbc2bd929d05cb4f0d006b5ab2dc26660 data\shrink_colonies_mod\loot_table\blocks\aluminum_ore.json

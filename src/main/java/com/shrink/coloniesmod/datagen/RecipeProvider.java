@@ -5,6 +5,7 @@ import com.shrink.coloniesmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -19,5 +20,37 @@ public class RecipeProvider extends FabricRecipeProvider {
     public void generate(RecipeExporter recipeExporter) {
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.STEEL_INGOT,
                 RecipeCategory.BUILDING_BLOCKS, ModBlocks.STEEL_BLOCK);
+
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.ALUMINUM_INGOT,
+                RecipeCategory.BUILDING_BLOCKS, ModBlocks.ALUMINUM_BLOCK);
+
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.TIN_INGOT,
+                RecipeCategory.BUILDING_BLOCKS, ModBlocks.TIN_BLOCK);
+
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.SILVER_INGOT,
+                RecipeCategory.BUILDING_BLOCKS, ModBlocks.SILVER_BLOCK);
+
+//        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.ALUMINUM_NUGGET,
+//                RecipeCategory.BUILDING_BLOCKS, ModItems.ALUMINUM_INGOT);
+//
+//        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.TIN_NUGGET,
+//                RecipeCategory.BUILDING_BLOCKS, ModItems.TIN_INGOT);
+//
+//        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.SILVER_NUGGET,
+//                RecipeCategory.BUILDING_BLOCKS, ModItems.SILVER_INGOT);
+
+        offerReversibleCompactingRecipesWithCompactingRecipeGroup(
+                recipeExporter, RecipeCategory.MISC, ModItems.SILVER_NUGGET, RecipeCategory.MISC,
+                ModItems.SILVER_INGOT, "silver_ingot_from_nuggets", "silver_ingot"
+        );
+        offerReversibleCompactingRecipesWithCompactingRecipeGroup(
+                recipeExporter, RecipeCategory.MISC, ModItems.TIN_NUGGET, RecipeCategory.MISC,
+                ModItems.TIN_INGOT, "tin_ingot_from_nuggets", "tin_ingot"
+        );
+        offerReversibleCompactingRecipesWithCompactingRecipeGroup(
+                recipeExporter, RecipeCategory.MISC, ModItems.ALUMINUM_NUGGET, RecipeCategory.MISC,
+                ModItems.ALUMINUM_INGOT, "aluminum_ingot_from_nuggets", "aluminum_ingot"
+        );
+
     }
 }

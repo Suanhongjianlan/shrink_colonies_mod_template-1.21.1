@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "aluminum_ingot",
+  "key": {
+    "#": {
+      "item": "shrink_colonies_mod:aluminum_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "shrink_colonies_mod:aluminum_ingot"
+  }
+}

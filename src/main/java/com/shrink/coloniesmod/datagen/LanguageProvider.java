@@ -20,5 +20,20 @@ public class LanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.STEEL_BLOCK,"Steel Block");
         translationBuilder.add("itemGroup.sc_items_tab","Shrink's Items");
         translationBuilder.add("itemGroup.sc_blocks_tab","Shrink's Blocks");
+        translationBuilder.add(ModBlocks.TIN_BLOCK,"Tin Block");
+        translationBuilder.add(ModBlocks.ALUMINUM_BLOCK,"Aluminum Block");
+        translationBuilder.add(ModBlocks.SILVER_BLOCK,"Silver Block");
+        translationBuilder.add(ModBlocks.TIN_ORE,"Tin Ore");
+        translationBuilder.add(ModBlocks.ALUMINUM_ORE,"Aluminum Ore");
+        translationBuilder.add(ModBlocks.SILVER_ORE,"Silver Ore");
+        translationBuilder.add(ModItems.RAW_ALUMINUM,"Raw Aluminum");
+        translationBuilder.add(ModItems.RAW_TIN,"Raw Tin");
+        translationBuilder.add(ModItems.RAW_SILVER,"Raw Silver");
+        translationBuilder.add(ModItems.SILVER_NUGGET,"Silver Nugget");
+        translationBuilder.add(ModItems.TIN_NUGGET,"Tin Nugget");
+        translationBuilder.add(ModItems.ALUMINUM_NUGGET,"Aluminum Nugget");
+        translationBuilder.add(ModItems.SILVER_INGOT,"Silver Ingot");
+        translationBuilder.add(ModItems.TIN_INGOT,"Tin Ingot");
+        translationBuilder.add(ModItems.ALUMINUM_INGOT,"Aluminum Ingot");
     }
 }

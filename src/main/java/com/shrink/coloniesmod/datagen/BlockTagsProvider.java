@@ -19,9 +19,21 @@ public class BlockTagsProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.TIN_BLOCK)
+                .add(ModBlocks.ALUMINUM_BLOCK)
+                .add(ModBlocks.SILVER_BLOCK)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.ALUMINUM_ORE)
+                .add(ModBlocks.SILVER_ORE)
                 .add(ModBlocks.STEEL_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.TIN_BLOCK)
+                .add(ModBlocks.ALUMINUM_BLOCK)
+                .add(ModBlocks.SILVER_BLOCK)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.ALUMINUM_ORE)
+                .add(ModBlocks.SILVER_ORE)
                 .add(ModBlocks.STEEL_BLOCK);
     }
 }

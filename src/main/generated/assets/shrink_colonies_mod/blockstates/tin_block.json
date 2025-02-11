@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "shrink_colonies_mod:block/tin_block"
+    }
+  }
+}
