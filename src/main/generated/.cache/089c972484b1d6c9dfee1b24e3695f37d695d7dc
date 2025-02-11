@@ -1,0 +1,5 @@
+// 1.21.1	2025-02-11T22:50:25.8322351	Shrink Colonies Mod/Recipes
+5d7edb21336732af98af8544e1fb7d7c37c5c71d data\shrink_colonies_mod\recipe\steel_ingot.json
+8e768c80215b0409b81331b5cb41a8463cd4a66d data\shrink_colonies_mod\advancement\recipes\misc\steel_ingot.json
+ba16376c8e443cab07cb48000414939dd5a3664c data\shrink_colonies_mod\recipe\steel_block.json
+40dbd990fb0dda8051d8b6fb04f9d207d0d57a0c data\shrink_colonies_mod\advancement\recipes\building_blocks\steel_block.json

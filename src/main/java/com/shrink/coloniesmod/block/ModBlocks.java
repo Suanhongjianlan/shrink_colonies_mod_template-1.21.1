@@ -2,10 +2,9 @@ package com.shrink.coloniesmod.block;
 
 
 import com.shrink.coloniesmod.ShrinkColoniesMod;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -14,6 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    //钢块
     public static final Block STEEL_BLOCK = register(
             "steel_block",
             new Block(
@@ -25,6 +25,16 @@ public class ModBlocks {
                             .sounds(BlockSoundGroup.METAL)
             )
     );
+    //
+    public static final Block ROCK = register(
+            "rock",
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .strength(5.0F, 6.0F)
+                            .sounds(BlockSoundGroup.STONE)
+            )
+    );
+
 
     public static void registerBlockItem(String id,Block block){
         Item item = Registry.register(Registries.ITEM,Identifier.of(ShrinkColoniesMod.MOD_ID,id),new BlockItem(block,new Item.Settings()));

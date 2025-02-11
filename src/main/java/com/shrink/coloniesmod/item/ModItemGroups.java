@@ -46,6 +46,8 @@ public class ModItemGroups {
                     .icon(()->new ItemStack(ModBlocks.STEEL_BLOCK))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.STEEL_BLOCK);
+
+                        entries.add(ModBlocks.ROCK);
                     }).build());
     
     public static void registerModItemGroups(){
