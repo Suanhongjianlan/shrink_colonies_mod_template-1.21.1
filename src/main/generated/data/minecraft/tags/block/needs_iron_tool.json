@@ -1,0 +1,11 @@
+{
+  "values": [
+    "shrink_colonies_mod:tin_block",
+    "shrink_colonies_mod:aluminum_block",
+    "shrink_colonies_mod:silver_block",
+    "shrink_colonies_mod:tin_ore",
+    "shrink_colonies_mod:aluminum_ore",
+    "shrink_colonies_mod:silver_ore",
+    "shrink_colonies_mod:steel_block"
+  ]
+}

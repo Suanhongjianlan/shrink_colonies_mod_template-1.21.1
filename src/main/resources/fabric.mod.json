@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "shrink-colonies-mod",
+	"id": "shrink_colonies_mod",
 	"version": "${version}",
 	"name": "Shrink Colonies Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -9,10 +9,10 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Suanhongjianlan/shrink_colonies_mod_template-1.21.1"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/shrink-colonies-mod/icon.png",
+	"icon": "assets/shrink_colonies_mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,7 +23,7 @@
 		]
 	},
 	"mixins": [
-		"shrink-colonies-mod.mixins.json"
+		"shrink_colonies_mod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.10",
