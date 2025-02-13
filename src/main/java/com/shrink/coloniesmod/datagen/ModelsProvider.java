@@ -37,5 +37,10 @@ public class ModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ALUMINUM_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.SILVER_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.TIN_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STEEL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_HOE, Models.HANDHELD);
     }
 }

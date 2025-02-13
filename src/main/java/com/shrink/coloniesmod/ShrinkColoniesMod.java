@@ -3,6 +3,8 @@ package com.shrink.coloniesmod;
 import com.shrink.coloniesmod.block.ModBlocks;
 import com.shrink.coloniesmod.item.ModItemGroups;
 import com.shrink.coloniesmod.item.ModItems;
+import com.shrink.coloniesmod.tags.ModBlockTags;
+import com.shrink.coloniesmod.tags.ModItemTags;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -26,5 +28,7 @@ public class ShrinkColoniesMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
 		ModBlocks.registerModBlock();
+		ModBlockTags.registerModBlockTags();
+		ModItemTags.registerModItemTags();
 	}
 }

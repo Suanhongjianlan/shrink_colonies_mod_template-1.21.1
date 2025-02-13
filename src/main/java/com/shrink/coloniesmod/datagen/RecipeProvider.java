@@ -18,6 +18,9 @@ public class RecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter recipeExporter) {
+        /*
+          块<->锭的合成和分解配方
+          */
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.STEEL_INGOT,
                 RecipeCategory.BUILDING_BLOCKS, ModBlocks.STEEL_BLOCK);
 
@@ -30,15 +33,9 @@ public class RecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.SILVER_INGOT,
                 RecipeCategory.BUILDING_BLOCKS, ModBlocks.SILVER_BLOCK);
 
-//        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.ALUMINUM_NUGGET,
-//                RecipeCategory.BUILDING_BLOCKS, ModItems.ALUMINUM_INGOT);
-//
-//        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.TIN_NUGGET,
-//                RecipeCategory.BUILDING_BLOCKS, ModItems.TIN_INGOT);
-//
-//        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.SILVER_NUGGET,
-//                RecipeCategory.BUILDING_BLOCKS, ModItems.SILVER_INGOT);
-
+        /*
+          锭<->粒的合成和分解配方
+          */
         offerReversibleCompactingRecipesWithCompactingRecipeGroup(
                 recipeExporter, RecipeCategory.MISC, ModItems.SILVER_NUGGET, RecipeCategory.MISC,
                 ModItems.SILVER_INGOT, "silver_ingot_from_nuggets", "silver_ingot"

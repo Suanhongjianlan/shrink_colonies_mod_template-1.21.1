@@ -19,6 +19,7 @@ public class ChineseLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.STEEL_BLOCK,"钢块");
         translationBuilder.add("itemGroup.sc_items_tab","Shrink物品");
         translationBuilder.add("itemGroup.sc_blocks_tab","Shrink方块");
+        translationBuilder.add("itemGroup.sc_tools_tab","Shrink工具");
         translationBuilder.add(ModBlocks.TIN_BLOCK,"锌块");
         translationBuilder.add(ModBlocks.ALUMINUM_BLOCK,"铝块");
         translationBuilder.add(ModBlocks.SILVER_BLOCK,"银块");
@@ -34,5 +35,10 @@ public class ChineseLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.SILVER_INGOT,"银锭");
         translationBuilder.add(ModItems.TIN_INGOT,"锡锭");
         translationBuilder.add(ModItems.ALUMINUM_INGOT,"铝锭");
+        translationBuilder.add(ModItems.STEEL_SWORD,"钢剑");
+        translationBuilder.add(ModItems.STEEL_PICKAXE,"钢镐");
+        translationBuilder.add(ModItems.STEEL_SHOVEL,"钢铲");
+        translationBuilder.add(ModItems.STEEL_AXE,"钢斧");
+        translationBuilder.add(ModItems.STEEL_HOE,"钢锄");
     }
 }

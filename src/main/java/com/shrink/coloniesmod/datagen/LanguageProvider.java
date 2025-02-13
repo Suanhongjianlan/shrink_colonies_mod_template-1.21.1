@@ -20,6 +20,7 @@ public class LanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.STEEL_BLOCK,"Steel Block");
         translationBuilder.add("itemGroup.sc_items_tab","Shrink's Items");
         translationBuilder.add("itemGroup.sc_blocks_tab","Shrink's Blocks");
+        translationBuilder.add("itemGroup.sc_tools_tab","Shrink's Tools");
         translationBuilder.add(ModBlocks.TIN_BLOCK,"Tin Block");
         translationBuilder.add(ModBlocks.ALUMINUM_BLOCK,"Aluminum Block");
         translationBuilder.add(ModBlocks.SILVER_BLOCK,"Silver Block");
@@ -35,5 +36,10 @@ public class LanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.SILVER_INGOT,"Silver Ingot");
         translationBuilder.add(ModItems.TIN_INGOT,"Tin Ingot");
         translationBuilder.add(ModItems.ALUMINUM_INGOT,"Aluminum Ingot");
+        translationBuilder.add(ModItems.STEEL_SWORD,"Steel Sword");
+        translationBuilder.add(ModItems.STEEL_SHOVEL,"Steel Shovel");
+        translationBuilder.add(ModItems.STEEL_PICKAXE,"Steel Pickaxe");
+        translationBuilder.add(ModItems.STEEL_AXE,"Steel Axe");
+        translationBuilder.add(ModItems.STEEL_HOE,"Steel Hoe");
     }
 }

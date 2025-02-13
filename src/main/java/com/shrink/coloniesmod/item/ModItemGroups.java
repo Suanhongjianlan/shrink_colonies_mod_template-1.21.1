@@ -62,6 +62,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TIN_ORE);
                         entries.add(ModBlocks.ALUMINUM_ORE);
                     }).build());
+
+    public static final ItemGroup SC_TOOLS_TAB = Registry.register(Registries.ITEM_GROUP,Identifier.of(MOD_ID,"sc_tools_tab"),
+            ItemGroup.create(null,-1).displayName(Text.translatable("itemGroup.sc_tools_tab"))
+                    .icon(()->new ItemStack(ModItems.STEEL_PICKAXE))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.STEEL_SHOVEL);
+                        entries.add(ModItems.STEEL_PICKAXE);
+                        entries.add(ModItems.STEEL_AXE);
+                        entries.add(ModItems.STEEL_HOE);
+                        entries.add(ModItems.STEEL_SWORD);
+                    }).build());
     
     public static void registerModItemGroups(){
         ShrinkColoniesMod.LOGGER.info("Registering Item Groups");

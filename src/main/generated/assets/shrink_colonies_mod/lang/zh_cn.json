@@ -13,9 +13,15 @@
   "item.shrink_colonies_mod.raw_tin": "粗锡",
   "item.shrink_colonies_mod.silver_ingot": "银锭",
   "item.shrink_colonies_mod.silver_nugget": "银粒",
+  "item.shrink_colonies_mod.steel_axe": "钢斧",
+  "item.shrink_colonies_mod.steel_hoe": "钢锄",
   "item.shrink_colonies_mod.steel_ingot": "钢锭",
+  "item.shrink_colonies_mod.steel_pickaxe": "钢镐",
+  "item.shrink_colonies_mod.steel_shovel": "钢铲",
+  "item.shrink_colonies_mod.steel_sword": "钢剑",
   "item.shrink_colonies_mod.tin_ingot": "锡锭",
   "item.shrink_colonies_mod.tin_nugget": "锡粒",
   "itemGroup.sc_blocks_tab": "Shrink方块",
-  "itemGroup.sc_items_tab": "Shrink物品"
+  "itemGroup.sc_items_tab": "Shrink物品",
+  "itemGroup.sc_tools_tab": "Shrink工具"
 }
